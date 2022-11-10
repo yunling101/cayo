@@ -1,0 +1,27 @@
+debug: true
+workspace: ""
+webserver:
+  enable: true
+  listen: "0.0.0.0:7072"
+
+rpcserver:
+  enable: true
+  listen: "0.0.0.0:7071"
+
+database:
+  host: "127.0.0.1"
+  username: ""
+  password: ""
+  port: 27017
+  database: "cayo"
+  prefix: "pre_"
+
+channel:
+  email:
+    enable: false
+    username: ""
+    password: ""
+    host: ""
+    port: 25
+
+node_max_limit: 10000

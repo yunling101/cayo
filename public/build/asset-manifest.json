@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e273dc3.css",
+    "main.js": "/static/js/main.885ac116.js",
+    "static/media/inter-medium.woff?v=3.13": "/static/media/inter-medium.cc6a88688869161eb836.woff",
+    "static/media/inter-light.woff?v=3.13": "/static/media/inter-light.0cde50f90fe61871de0a.woff",
+    "static/media/inter-regular.woff?v=3.13": "/static/media/inter-regular.fc49d131f795b4d48f26.woff",
+    "static/media/inter-bold.woff2?v=3.13": "/static/media/inter-bold.3c747ac4004be3a30e98.woff2",
+    "static/media/inter-medium.woff2?v=3.13": "/static/media/inter-medium.5b53c519b3184a74a98c.woff2",
+    "static/media/inter-light.woff2?v=3.13": "/static/media/inter-light.15bbe3b76e0bedd9c4d5.woff2",
+    "static/media/inter-regular.woff2?v=3.13": "/static/media/inter-regular.2505c0d4b34ffca98f8f.woff2",
+    "static/media/feather.woff?sdxovp": "/static/media/feather.eb9822a3be07c5110df9.woff",
+    "static/media/feather.ttf?sdxovp": "/static/media/feather.b2469c88d8944b230519.ttf",
+    "static/media/auth-bg.png": "/static/media/auth-bg.fc141064490c9c6b1d7f.png",
+    "static/media/pattern.png": "/static/media/pattern.6cdf340b4795acee9a57.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.9e273dc3.css",
+    "static/js/main.885ac116.js"
+  ]
+}
