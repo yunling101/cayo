@@ -6,6 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/yunling101/cayo/pkg/cayoserver/controller"
 	"github.com/yunling101/cayo/pkg/model/node"
+	"github.com/yunling101/cayo/pkg/model/q"
+	"github.com/yunling101/cayo/pkg/model/task"
 	"github.com/yunling101/cayo/pkg/types"
 )
 
@@ -86,6 +88,12 @@ func (w NodeController) Delete(c *gin.Context) {
 	id, err := strconv.Atoi(c.Param("id"))
 	if err != nil {
 		w.RenderFail(c, "ID错误!")
+		return
+	}
+	// 取消已关联任务
+	err = q.Table(task.Task{}.TableName()).PullOne(q.M{"probe_node": id}, q.M{"probe_node": id})
+	if err != nil {
+		w.RenderFail(c, "取消关联任务出错!")
 		return
 	}
 	err = node.EndPoint{}.Delete(map[string]interface{}{"id": id})

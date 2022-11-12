@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9e273dc3.css",
-    "main.js": "/static/js/main.885ac116.js",
+    "main.js": "/static/js/main.15a44453.js",
     "static/media/inter-medium.woff?v=3.13": "/static/media/inter-medium.cc6a88688869161eb836.woff",
     "static/media/inter-light.woff?v=3.13": "/static/media/inter-light.0cde50f90fe61871de0a.woff",
     "static/media/inter-regular.woff?v=3.13": "/static/media/inter-regular.fc49d131f795b4d48f26.woff",
@@ -17,6 +17,6 @@
   },
   "entrypoints": [
     "static/css/main.9e273dc3.css",
-    "static/js/main.885ac116.js"
+    "static/js/main.15a44453.js"
   ]
 }
